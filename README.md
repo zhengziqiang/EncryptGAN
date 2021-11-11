@@ -1,6 +1,18 @@
 # EncryptGAN
 ## Introduction
 EncryptGAN is a [Tensorflow](http://tensorflow.org/)-based framework for training and testing of **[EncryptGAN: Image Steganography with Domain Transform](https://arxiv.org/abs/1905.11582)**
+
+## Citation
+If you use this code for your research, please cite our papers.
+```
+@article{zheng2019encryptgan,
+  title={EncryptGAN: Image Steganography with Domain Transform},
+  author={Zheng, Ziqiang and Liu, Hongzhi and Yu, Zhibin and Zheng, Haiyong and Wu, Yang and Yang, Yang and Shi, Jianbo},
+  journal={arXiv preprint arXiv:1905.11582},
+  year={2019}
+}
+```
+
 ## Installation
 1. We use [Miniconda3](https://conda.io/miniconda.html) as the basic environment. If you installed the Miniconda3 in path `Conda_Path`, please install `tensorflow-gpu` using the command `Conda_Path/bin/conda install -c anaconda tensorflow-gpu==1.8`.
 2. Install dependencies by `Conda_Path/bin/pip install -r requirements.txt` (if necessary). The `requirements.txt` file is provided in this package.
